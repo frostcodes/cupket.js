@@ -1,37 +1,50 @@
-## Welcome to GitHub Pages
+# Cupket.js
 
-You can use the [editor on GitHub](https://github.com/frostcodes/cupket.js/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+**Cupket.js** is a JavaScript library for communicating and working with *Web socket servers*. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The major features include:
 
-### Markdown
+- Connecting to Web Socket Servers
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- Detecting if the browser supports Web Sockets
 
-```markdown
-Syntax highlighted code block
+- Supports Auto reconnecting to the server if the connection was lost
 
-# Header 1
-## Header 2
-### Header 3
+- Support Debugging mode which helps you in debugging your app by printing out debug information's
 
-- Bulleted
-- List
+- ***Time logging***: this allows logging of time certain events occurred such as sending/receiving data, time Cupket could not connect to Web Sockets Server
 
-1. Numbered
-2. List
+- ***Data Statistics***: you can view — total bytes of data sent to the server, the total number of requests that failed to send to the server, the total number of requests sent to the server, total bytes of data received from the server, the total number of data received to server,  the total number of times Cupket tried reconnecting to the server
 
-**Bold** and _Italic_ and `Code` text
+- Send **raw data** to server
 
-[Link](url) and ![Image](src)
-```
+- Send data as ***JSON***
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+- Send data as **TSV**(Tab separated values) and **CSV** (Comma separated values)
 
-### Jekyll Themes
+- Send data as user-defined **Custom Separated Data** for example using "  | "
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/frostcodes/cupket.js/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+- Send data as an **Array Buffer**
 
-### Support or Contact
+- Send data as **Byte Buffer**
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- Send data as **Blob** 
+
+# Cupket EVENTS
+
+- **cupket_onopen**
+
+- **cupket_onmessage**
+
+- **cupket_onclose**
+
+- **cupket_onerror**
+
+- **cupket_onsend**
+
+## Authors
+
+ **Oluwaseyi Aderinkomi** - *Initial author* - [frostcodes](https://github.com/frostcodes) ## License This project is licensed under the DON'T BE A DICK PUBLIC LICENSE — see the [License](License.txt) file for details 
+
+
+> MADE WITH ❤ by [PUNCHLINE TECHNOLOGIES](http://punchlinetech.com/)
