@@ -22,7 +22,7 @@ The major features include:
 
 - Send data as **TSV**(Tab separated values) and **CSV** (Comma separated values)
 
-- Send data as user-defined **Custom Separated Data** for example using "  | "
+- Send data as user-defined **Custom Separated Data** for example, using "  | "
 
 - Send data as an **Array Buffer**
 
@@ -32,19 +32,22 @@ The major features include:
 
 # Cupket EVENTS
 
-- **cupket_onopen**
+- **cupket_onopen** - Fires when Cupket is able to connect
 
-- **cupket_onmessage**
+- **cupket_onmessage** - Fires when Cupket receives data from the server
 
-- **cupket_onclose**
+- **cupket_onclose**  - Fires when Cupket detects that the connection was closed 
 
-- **cupket_onerror**
+- **cupket_onerror** - Fires when Cupket detects an error in communication
 
-- **cupket_onsend**
+- **cupket_onsend**  - Fires when Cupket send data to the server
 
 ## Authors
 
- **Oluwaseyi Aderinkomi** - *Initial author* - [frostcodes](https://github.com/frostcodes) ## License This project is licensed under the DON'T BE A DICK PUBLIC LICENSE — see the [License](License.txt) file for details 
+ **Oluwaseyi Aderinkomi** - *Initial author* - [frostcodes](https://github.com/frostcodes)
+ 
+ ## License 
+ This project is licensed under the DON'T BE A DICK PUBLIC LICENSE — see the [License](License.txt) file for details 
 
 
 > MADE WITH ❤ by [PUNCHLINE TECHNOLOGIES](http://punchlinetech.com/)
