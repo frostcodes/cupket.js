@@ -131,7 +131,7 @@ this.statistics.totalFailedRequests= 0;  //  total number of requests that faile
 
 this.statistics.totalDataRequests = 0; // total number of request sent to server  
 
-this.statistics.totalPacketReceived = 0; // total bytes of data sent to server 
+this.statistics.totalPacketReceived = 0; // total bytes of data received from server 
 this.statistics.totalDataReceived = 0; // total number of request sent to server
 
 this.statistics.totalReconnects = 0; // total number of times cupket tried reconnecting to server
