@@ -790,7 +790,7 @@ sendCSV(data){
 }
 
 
-// use this to send data as TSV( Tab seperated values)
+// use this to send data as TSV( Tab separated values)
 
 sendTSV(data){
 
